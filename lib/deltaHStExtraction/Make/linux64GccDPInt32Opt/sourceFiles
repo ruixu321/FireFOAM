@@ -1,0 +1,5 @@
+SOURCE = \
+src/Enthalpy_Defect.C \
+src/Stoich_Scalar_Dissipation_Rate_Class.C \
+src/Variance_Mixture_Fraction_Class.C \
+src/Mixture_Fraction_Class.C 

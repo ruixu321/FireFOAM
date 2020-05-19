@@ -1,0 +1,24 @@
+/* Radiation model */
+radiationModels/radiationModel/radiationModel.C
+radiationModels/radiationModel/radiationModelNew.C
+radiationModels/noRadiation/noRadiation.C
+radiationModels/blackBodyEmission/blackBodyEmission.C
+radiationModels/fvDOMBand/fvDOMBand.C
+radiationModels/radiativeIntensityRay/radiativeIntensityRayBand.C
+radiationModels/absorptionCoeffs/absorptionCoeffsJohansson.C
+
+
+/* Absorption/Emission model */
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBand.C
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBandNew.C
+/*submodels/absorptionEmissionModel/wsggmAbsorptionEmissionSmithBand/wsggmAbsorptionEmissionSmithBand.C*/
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionJohanssonBand/wsggmAbsorptionEmissionJohanssonBand.C
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionJohanssonBand2/wsggmAbsorptionEmissionJohanssonBand2.C
+/*submodels/absorptionEmissionModel/wsggmAbsorptionEmissionCassolBand/wsggmAbsorptionEmissionCassolBand.C*/
+/*submodels/absorptionEmissionModel/wsggSuperpositionCassol/wsggSuperpositionCassol.C*/
+
+
+/*boundary conditions */
+derivedFvPatchFields/wideBandDiffusiveRadiationWSGG/wideBandDiffusiveRadiationWSGGMixedFvPatchScalarField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libbandedRadiationModelsFlameletTRI

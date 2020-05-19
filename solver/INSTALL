@@ -1,0 +1,28 @@
+The following is an outline of the steps to install OpenFOAM and fireFoam
+Adaptation will likely be needed for specifics of your architecture and compiler
+
+cd ~
+mkdir OpenFOAM
+cd OpenFOAM/
+git clone https://github.com/OpenFOAM/OpenFOAM-2.2.x.git
+wget "http://downloads.sourceforge.net/foam/ThirdParty-2.2.2.tgz?use_mirror=mesh" -O ThirdParty-2.2.x.tgz
+tar -zxvf ThirdParty-2.2.x.tgz
+mv ThirdParty-2.2.2 ThirdParty-2.2.x
+rm -fr ThirdParty-2.2.x.tgz
+cd OpenFOAM-2.2.x/
+source etc/bashrc
+export WM_NCOMPPROCS=8
+export PATH=/usr/local/gcc-4.7.2/bin/:$PATH
+# enable readline support for setSet and add curses library
+# edit ~/OpenFOAM/OpenFOAM-2.2.x/applications/utilities/mesh/manipulation/setSet/Allwmake
+-    export LINK_FLAGS="-lreadline"
++    export LINK_FLAGS="-lreadline -lcurses"
+
+./Allwmake >& log.Allwmake &
+
+cd ~
+git clone https://github.com/fireFoam-dev/fireFoam-2.2.x.git
+cd fireFoam-2.2.x
+./Allwmake >& log.Allwmake &
+
+

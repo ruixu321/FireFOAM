@@ -1,0 +1,8 @@
+$(OBJECTS_DIR)/src/OpenSMOKE_PDF_Flamelet_Library.C.dep: \
+src/OpenSMOKE_PDF_Flamelet_Library.C \
+src/OpenSMOKE_PDF_Flamelet_Library.H \
+src/OpenSMOKE_PDF_Flamelet.H \
+/a/fs-3/export/home/deepthought2/ruixu/OpenFOAM/flamelet/WSGG_TRI_HRR/lib/flameletExtraction/common/lnInclude/OpenSMOKE_ChiDistribution.H \
+/a/fs-3/export/home/deepthought2/ruixu/OpenFOAM/flamelet/WSGG_TRI_HRR/lib/flameletExtraction/common/lnInclude/OpenSMOKE_External_Functions.H \
+
+

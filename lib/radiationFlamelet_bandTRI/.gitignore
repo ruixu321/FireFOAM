@@ -1,0 +1,6 @@
+*.dep
+*.swm
+*.swo
+*.swp
+*.swn
+*.o

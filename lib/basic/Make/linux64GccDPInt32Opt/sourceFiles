@@ -1,0 +1,3 @@
+SOURCE = \
+flameletV3/flameletPsiReactionThermo.C \
+flameletV3/flameletPsiReactionThermos.C 

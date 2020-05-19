@@ -1,0 +1,7 @@
+$(OBJECTS_DIR)/src/Variance_Mixture_Fraction_Class.C.dep: \
+src/Variance_Mixture_Fraction_Class.C \
+src/Variance_Mixture_Fraction_Class.H \
+src/Stoich_Scalar_Dissipation_Rate_Class.H \
+src/Enthalpy_Defect.H \
+
+

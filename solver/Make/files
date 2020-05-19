@@ -1,0 +1,4 @@
+version.Fver
+Flamelet_WSGG_HRR.C
+
+EXE = $(FOAM_USER_APPBIN)/Flamelet_WSGG_HRR

@@ -1,0 +1,6 @@
+src/OpenSMOKE_PDF_Flamelet.C
+src/OpenSMOKE_PDF_NonAdiabaticFlamelet_Library.C
+src/OpenSMOKE_PDF_Flamelet_Library.C
+
+LIB = $(FOAM_USER_LIBBIN)/libFlameletV3_turbulent_WSGGTRI_v2
+

@@ -1,0 +1,5 @@
+$(OBJECTS_DIR)/version.Fver.dep: \
+version.Fver \
+gitVersion.H \
+
+

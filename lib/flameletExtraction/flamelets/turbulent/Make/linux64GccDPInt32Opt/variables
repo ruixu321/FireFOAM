@@ -1,0 +1,1 @@
+LIB = $(FOAM_USER_LIBBIN)/libFlameletV3_turbulent_WSGGTRI_v2

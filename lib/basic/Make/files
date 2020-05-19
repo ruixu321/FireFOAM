@@ -1,0 +1,4 @@
+flameletV3/flameletPsiReactionThermo.C
+flameletV3/flameletPsiReactionThermos.C
+
+LIB = $(FOAM_USER_LIBBIN)/libflameletV3ThermophysicalModels_WSGGTRI_v2

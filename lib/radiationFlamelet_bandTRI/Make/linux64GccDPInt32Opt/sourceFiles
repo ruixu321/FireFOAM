@@ -1,0 +1,13 @@
+SOURCE = \
+radiationModels/radiationModel/radiationModel.C \
+radiationModels/radiationModel/radiationModelNew.C \
+radiationModels/noRadiation/noRadiation.C \
+radiationModels/blackBodyEmission/blackBodyEmission.C \
+radiationModels/fvDOMBand/fvDOMBand.C \
+radiationModels/radiativeIntensityRay/radiativeIntensityRayBand.C \
+radiationModels/absorptionCoeffs/absorptionCoeffsJohansson.C \
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBand.C \
+submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModelBandNew.C \
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionJohanssonBand/wsggmAbsorptionEmissionJohanssonBand.C \
+submodels/absorptionEmissionModel/wsggmAbsorptionEmissionJohanssonBand2/wsggmAbsorptionEmissionJohanssonBand2.C \
+derivedFvPatchFields/wideBandDiffusiveRadiationWSGG/wideBandDiffusiveRadiationWSGGMixedFvPatchScalarField.C 

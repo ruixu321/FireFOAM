@@ -1,0 +1,6 @@
+$(OBJECTS_DIR)/src/Stoich_Scalar_Dissipation_Rate_Class.C.dep: \
+src/Stoich_Scalar_Dissipation_Rate_Class.C \
+src/Stoich_Scalar_Dissipation_Rate_Class.H \
+src/Enthalpy_Defect.H \
+
+
